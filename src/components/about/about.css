@@ -1,11 +1,13 @@
 
 .about__container{
-    display: grid;
-    grid-template-columns: 35% 50%;
+    display: grid; 
+    /* margin: 0px 50px 0px 50px; */
+    margin-left: 20%;
+    grid-template-columns: 70% ; 
     gap: 15%;
     
 }
-.about__me{
+/* .about__me{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -17,11 +19,11 @@
     display: grid;
     place-items: center;
 
-}
+} */
 
 .about__cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 
 }
@@ -50,6 +52,7 @@
 
 .about__card h5{
     font-size: 0.95rem;
+    
 }
 
 .about__card small{
@@ -62,10 +65,12 @@
     color: var(--color-light);
 
 }
+
    /* =============MEDIA QUERIES (MEDIUM DEVICES)============= */
    @media screen and (max-width: 1024px){ 
     .about__container{
         grid-template-columns: 1fr;
+        margin: 10%;
         gap: 0;
     }
     .about__me{

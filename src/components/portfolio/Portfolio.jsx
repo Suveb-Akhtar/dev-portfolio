@@ -1,31 +1,31 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/bw1.webp'
-import IMG2 from '../../assets/bw2.webp'
-import IMG3 from '../../assets/bw3.webp'
+import IMG1 from '../../assets/project1.png'
+import IMG2 from '../../assets/project2.png'
+import IMG3 from '../../assets/project3.png'
 
 
 const data = [
 {
   id:1,
   image:IMG1,
-  title:' UI kit for data design web apps',
-  github:'https://github.com',
-  demo:'https://dribbble.com/shots/19727539-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+  title:'Top-Rated Movies Web-Application',
+  github:'https://github.com/Suveb-Akhtar/IMDB-movie-app',
+  demo:'https://suveb-akhtar-movie-app.netlify.app'
 },
 {
   id:2,
   image:IMG2,
-  title:'Line charts / Orion UI',
-  github:'https://github.com',
-  demo:'https://dribbble.com/shots/19660913-Line-charts-Orion-UI'
+  title:'Crypto-Currency Web-Application',
+  github:'https://github.com/Suveb-Akhtar/Crypto-Zone',
+  demo:'https://cryptozone-suveb-akhtar.netlify.app'
 },
 {
   id:3,
   image:IMG3,
-  title:'Sankey Chart / Orion UI Kit',
-  github:'https://github.com',
-  demo:'https://dribbble.com/shots/19660633-Sankey-Chart-Orion-UI-Kit'
+  title:'Weather-Forecast Web-App',
+  github:'https://github.com/Suveb-Akhtar/weather-app',
+  demo:'https://weather-app-s-akhtar.netlify.app'
 },
 
 ]
