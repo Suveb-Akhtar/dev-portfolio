@@ -9,6 +9,7 @@ const About = () => {
       <h5>Get To Know </h5>
       <h2>About Me</h2>
       <div className="conatiner about__container">
+     
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -30,11 +31,10 @@ const About = () => {
             my skills with new technology.
           </p>
 
-          <a href="#contact " className="btn btn-primary">
+          {/* <a href="#contact " className="btn btn-primary">
             {" "}
             Let's Talk
-          </a>
-         
+          </a> */}
         </div>
       </div>
     </section>
